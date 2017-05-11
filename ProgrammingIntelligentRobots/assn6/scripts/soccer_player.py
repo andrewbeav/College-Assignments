@@ -125,7 +125,6 @@ class Robot:
                     if abs(self.x - self.kick_x) < abs(self.x - ball_x) and abs(self.y - self.kick_y) < abs(self.y - ball_y):
                         self.state = 'NAV_TO_KICK'
                     else:
-			self.state = 'NAV_TO_KICK'
                         left_side_x = self.x + (1.5 * math.sqrt(2) * math.cos(self.theta - math.pi/4))
                         left_side_y = self.y + (1.5 * math.sqrt(2) * math.sin(self.theta - math.pi/4))
 			right_side_x = self.x + (1.5 * math.sqrt(2) * math.cos(self.theta + math.pi/4))
