@@ -13,7 +13,7 @@ class Robot:
         # Set up a variable to hold the robot's state (self.state, perhaps?)
         # and a variable to keep track of the time of the last state change
         self.pub = rospy.Publisher('/mobile_base/commands/velocity', Twist, queue_size=10)
-        sub = rospy.Subscriber("/mobile_base/events/bumper", BumperEvent, self.bumped)
+        rospy.Subscriber("/mobile_base/events/bumper", BumperEvent, self.bumped)
         self.state = 1 # 0="go backward", 1="go forward" 2="turn"
 
     def bumped(self, msg):
