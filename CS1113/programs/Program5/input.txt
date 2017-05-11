@@ -1,0 +1,9 @@
+74,Corvinas,Alexander,A+,18.1
+1011,Intervenus,Lestat,O-,18.2
+1111,Swan,Bella,B+,11.5
+1,The First,Dracula,A+,12.7
+45,Bevelhymer,Andrew,O+,12.4
+89,Kenobi,Ben,B-,5.3
+1016,Skywalker,Anakin,AB,6.2
+1214,Organa,Leia,B+,8.5
+4564,Skywalker,Luke,A-,4.6
