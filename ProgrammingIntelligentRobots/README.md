@@ -3,11 +3,11 @@
 ## Info about class
 
 This is a class I took my second semester at Oklahoma State. It was an honors add-on for Computer Science 2 where we used [ROS](http://www.ros.org/) to write python programs that ran on turtlebots. This class was a lot of fun, very challenging, and I learned about things such as...
-	* PID controllers
-	* Finite State Automata
-	* Computer Vision (Specifically, we used OpenCV)
-	* Path Planning
-	* Particle Filters
+* PID controllers
+* Finite State Automata
+* Computer Vision (Specifically, we used OpenCV)
+* Path Planning
+* Particle Filters
 
 ## What's Included in This Repository?
 
